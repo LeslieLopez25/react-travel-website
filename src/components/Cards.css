@@ -1,6 +1,9 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: linear-gradient(90deg,
+      hsl(203.8, 63.7%, 44.3%) 0%,
+      hsl(195.7, 93.4%, 70.4%) 20%,
+      hsl(0, 0%, 100%) 100%);
 }
 
 h1 {
@@ -36,9 +39,9 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  box-shadow: 0 6px 20px hsl(219.2, 100%, 61%, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px hsl(219.2, 100%, 61%, 0.017));
+  filter: drop-shadow(0 6px 20px hsl(219.2, 100%, 61%, 0.017));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -65,8 +68,8 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: var(--white);
+  background-color: var(--electric-crimson);
   box-sizing: border-box;
 }
 
@@ -94,7 +97,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: hsl(224.6, 32.1%, 21.4%);
   font-size: 18px;
   line-height: 24px;
 }

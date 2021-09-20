@@ -1,3 +1,9 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --candy-apple: hsl(1.9, 100%, 50%);
+  --electric-crimson: hsl(345.2, 100%, 50%);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +16,7 @@
 .products,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: 600px;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
@@ -21,7 +27,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--white);
   font-size: 100px;
 }
 
@@ -30,7 +36,7 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--white);
   font-size: 100px;
 }
 
@@ -39,6 +45,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--white);
   font-size: 100px;
 }
