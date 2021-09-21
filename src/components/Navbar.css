@@ -1,7 +1,7 @@
 .navbar {
   background: linear-gradient(90deg,
-      hsl(296.4, 94.3%, 6.9%) 0%,
-      hsl(0, 100%, 21.8%) 100%);
+      hsl(218.6, 41.2%, 13.3%) 0%,
+      hsl(211.8, 40.5%, 23.7%) 100%);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -67,10 +67,10 @@
 .nav-links:hover {
   background: linear-gradient(to top,
       hsl(0, 0%, 100%) 0%,
-      hsl(1.9, 100%, 50%) 100%);
+      hsl(195.1, 100%, 50%));
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  border-bottom: 4px solid var(--candy-apple);
+  border-bottom: 4px solid var(--deep-sky-blue);
   transition: all 0.2s ease-out;
 }
 
@@ -105,8 +105,8 @@
 
   .nav-menu.active {
     background: linear-gradient(90deg,
-        hsl(296.4, 94.3%, 6.9%) 0%,
-        hsl(0, 100%, 21.8%) 100%);
+        hsl(218.6, 41.2%, 13.3%) 0%,
+        hsl(211.8, 40.5%, 23.7%) 100%);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -121,7 +121,7 @@
   }
 
   .nav-links:hover {
-    background-color: var(--candy-apple);
+    background-color: var(--deep-sky-blue);
     color: var(--white);
     border-radius: 0;
     border-bottom: 10px solid var(--white);
@@ -160,12 +160,12 @@
     background-color: transparent;
     color: var(--white);
     padding: 14px 20px;
-    border: 1px solid var(--candy-apple);
+    border: 1px solid var(--deep-sky-blue);
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: var(--candy-apple);
+    background: var(--deep-sky-blue);
     color: var(--white);
     transition: 250ms;
   }

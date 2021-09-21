@@ -7,16 +7,16 @@
 }
 
 .btn--primary {
-  background-color: var(--candy-apple);
+  background-color: var(--deep-sky-blue);
   color: var(--white);
-  border: 1px solid var(--candy-apple);
+  border: 1px solid var(--deep-sky-blue);
 }
 
 .btn--outline {
   background-color: transparent;
   color: var(--white);
   padding: 8px 20px;
-  border: 1px solid var(--candy-apple);
+  border: 1px solid var(--deep-sky-blue);
   transition: all 0.3s ease-out;
 }
 
@@ -33,7 +33,7 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: var(--candy-apple);
+  background: var(--deep-sky-blue);
   color: hsl(0, 0%, 14.1%);
   transition: 250ms;
 }

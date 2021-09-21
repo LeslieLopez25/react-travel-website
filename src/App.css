@@ -1,7 +1,8 @@
 :root {
   --white: hsl(0, 0%, 100%);
-  --candy-apple: hsl(1.9, 100%, 50%);
-  --electric-crimson: hsl(345.2, 100%, 50%);
+  --deep-sky-blue: hsl(195.1, 100%, 50%);
+  --phthalo-blue: hsl(233.4, 100%, 26.9%);
+  --blizzard-blue: hsl(188.2, 66%, 80.4%);
 }
 
 * {
@@ -23,7 +24,7 @@
 }
 
 .services {
-  background-image: url("./images/img-2.jpg");
+  background-image: url("./images/img-5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +33,7 @@
 }
 
 .products {
-  background-image: url("./images/img-1.jpg");
+  background-image: url("./images/img-6.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -41,7 +42,7 @@
 }
 
 .sign-up {
-  background-image: url("./images/img-8.jpg");
+  background-image: url("./images/img-7.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
