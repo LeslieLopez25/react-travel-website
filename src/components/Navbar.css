@@ -46,7 +46,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 800px;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -65,11 +65,7 @@
 }
 
 .nav-links:hover {
-  background: linear-gradient(to top,
-      hsl(0, 0%, 100%) 0%,
-      hsl(195.1, 100%, 50%));
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: hsl(195.1, 100%, 50%);
   border-bottom: 4px solid var(--deep-sky-blue);
   transition: all 0.2s ease-out;
 }
@@ -115,16 +111,15 @@
 
   .nav-links {
     text-align: center;
-    padding: 70px;
+    padding: 2rem;
     width: 100%;
     display: table;
   }
 
   .nav-links:hover {
     background-color: var(--deep-sky-blue);
-    color: var(--white);
+    color: var(--phthalo-blue);
     border-radius: 0;
-    border-bottom: 10px solid var(--white);
   }
 
   .navbar-logo {
@@ -166,7 +161,7 @@
 
   .nav-links-mobile:hover {
     background: var(--deep-sky-blue);
-    color: var(--white);
+    color: var(--phthalo-blue);
     transition: 250ms;
   }
 }

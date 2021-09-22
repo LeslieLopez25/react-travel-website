@@ -162,6 +162,10 @@
 }
 
 @media screen and (max-width: 820px) {
+  .footer-container {
+    position: absolute;
+  }
+
   .footer-links {
     padding-top: 2rem;
   }
@@ -182,5 +186,3 @@
     flex-direction: column;
   }
 }
-
-@media screen and (max-width: 768px) {}

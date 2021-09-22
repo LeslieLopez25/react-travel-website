@@ -16,13 +16,13 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={Img1}
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="Explore The Amazon Jungle And All Its Wonder"
               label="Adventure"
               path="/services"
             />
             <CardItem
               src={Img2}
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="Travel Through The Isles Of Scilly"
               label="Luxury"
               path="/services"
             />
@@ -30,19 +30,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={Img3}
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              text="Set Sail In The Pacific Ocean Visiting Uncharted Waters"
               label="Mystery"
               path="/services"
             />
             <CardItem
               src={Img4}
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              text="Take A Step Into Ancient Japan and Visit Mt. Fuji "
+              label="Venture"
               path="/products"
             />
             <CardItem
               src={Img5}
-              text="Ride through the Sahara Desert on a guided camel tour"
+              text="Explore The Beautiful Mountainside And Gorgeous Lake At Mt. Chephren in Canada"
               label="Adrenaline"
               path="/sign-up"
             />
