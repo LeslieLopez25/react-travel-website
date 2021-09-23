@@ -6,7 +6,7 @@
 
 ### Screenshots
 
-<img src="src/screenshots/desktop.png" width="400" height="900"><img src="src/screenshots/mobile.png" width="200"><img src="src/screenshots/navbar.png" width="200"><img src="src/screenshots/navbar-mobile.png" width="200"><img src="src/screenshots/sidebar.png" width="200">
+<img src="src/screenshots/desktop.png" width="400" height="1100"><img src="src/screenshots/mobile.png" width="200"><img src="src/screenshots/navbar.png" width="200"><img src="src/screenshots/navbar-mobile.png" width="200"><img src="src/screenshots/sidebar.png" width="200">
 
 ### Link
 
