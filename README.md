@@ -10,4 +10,4 @@
 
 ### Link
 
-- Live Site: [JOURNEY Website]()
+- Live Site: [JOURNEY Website](https://travel-website-journey.netlify.app/)
